@@ -1,0 +1,25 @@
+# Ignore node_modules in both frontend and backend
+/frontend/node_modules
+/backend/node_modules
+
+# Logs
+*.log
+
+# Environment variables
+.env
+/frontend/.env
+/backend/.env
+
+# OS/macOS stuff
+.DS_Store
+
+# IDE settings
+.vscode/
+.idea/
+
+# Build artifacts (optional depending on your setup)
+dist/
+build/
+
+# npm debug log
+npm-debug.log*
